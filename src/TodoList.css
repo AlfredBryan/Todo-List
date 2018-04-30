@@ -1,0 +1,51 @@
+.TodoList .Header input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid white;
+    width: 165px;
+    margin-left: 400px;
+}
+
+.First {
+    margin-left: 400px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+}
+
+.TodoList .Header button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+}
+
+.TodoList .Header button:hover {
+    background-color: rgb(52, 10, 107);
+    border: 2px solid rgb(52, 10, 107);
+    cursor: pointer;
+}
+
+.TodoList .theList li {
+    color: rgb(87, 35, 35);
+    background-color: bisque;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+    transition: background-color .2s ease-out;
+}
+
+ul.theList {
+    padding: 0;
+    width: 250px;
+    margin-left: 400px;
+}
+
+.TodoList .theList li:hover {
+    background-color: pink;
+    cursor: pointer;
+}
